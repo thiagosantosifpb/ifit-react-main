@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+.headerhome {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  text-align: center;
+}
+
+
+.logo-img {
+  width: 50%;
+}
+
+
+.navhome ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navhome ul li {
+  margin-right: 20px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1vw;
+
+}
+
+.navhome ul li:last-child {
+  margin-right: 0;
+}
+
+.navhome a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navhome a:hover {
+  color: #FB7523;
+}
+
+.image-carousel {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.image-slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.image-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-slide.active {
+  display: block;
+}
+
+.secaohome {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+#home {
+  padding: 0;
+  margin-bottom: 50px;
+  background: #FFFFFF;
+}
+
+#nossa-academia {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#nossaacademiatexto {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+#nossaacademiatexto p {
+  color: #FB7523;
+}
+
+#mascote {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#mascote img {
+  width: 60%;
+  margin: auto;
+}
+
+#local {
+  background-color: #FB7523;
+}
+
+.h2home {
+  font-size: 2.5vw;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: bold;
+}
+
+.secaohome p {
+  font-size: 1vw;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: #FB7523;
+}
+
+.full-width {
+  width: 100%;
+  height: 600px;
+}
+
+.location-map {
+  float: right;
+  margin: 10px;
+  width: 300px;
+}
+
+.map-thumbnails {
+  display: flex;
+  align-items: center;
+}
+
+.map-title {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.thumbnail {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.thumbnail iframe {
+  width: 200px;
+  height: 100px;
+}
+
+#contato {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: orange;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-links a:hover {
+  color: #FB7523;
+}
+
+.text-instagram {
+  color: #FB7523;
+  font-size: 4vw;
+}
+
+.text-twitter {
+  color: #FB7523;
+  font-size: 4vw;
+}
+
+.text-facebook {
+  color: #FB7523;
+  font-size: 4vw;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 30%;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+#planos {
+  background-color: #ffffff;
+}
+
+
+.plan-selector {
+  margin-bottom: 20px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.plan-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#plan {
+  display: flex;
+  padding: 10px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.plan-card {
+  background-color: #FB7523;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+}
+
+.plan-card h3 {
+  font-size: 18px;
+}
+
+.plan-card p {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.icone{
+  font-size: 2rem;
+}
+
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+
+}
